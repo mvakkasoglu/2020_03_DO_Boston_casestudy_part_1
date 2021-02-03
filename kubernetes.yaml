@@ -1,11 +1,11 @@
 apiVersion: apps/v1 #version of kubernetes api
 kind: Deployment #kind of the file...it can be services, pods, secrets configmap
 metadata: 
-  name: 2020_03_DO_Boston_casestudy_part_1 #name of my app. for microservice structure this is the name of the microservice
+  name: capstone-project-deployment #name of my app. for microservice structure this is the name of the microservice
 spec:
   selector:
     matchLabels:
-      app: capstone-project-deployment
+      app: capstone-project
   replicas: 3 #tells deployment to run 3 pods matching the template
   template:
     metadata:
