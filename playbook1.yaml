@@ -7,4 +7,4 @@
   # - name: delete the previous of kubernetes objects 
   #   command: kubectl delete -f /etc/kubernetes.yml
   - name: Create a Deployment by reading the definition from a local file
-    command: kubectl apply -f ./kubernetes.yml
+    command: kubectl apply -f kubernetes.yml
