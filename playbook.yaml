@@ -31,9 +31,9 @@
         - kubelet
         - kubeadm
         - kubectl
-        # - minikube
-  # - name: minikubes delete
-  #   command: minikube delete
+        - minikube
+  - name: minikubes delete
+    command: minikube delete
   - name: sysctl
     command: sysctl fs.protected_regular=0
   - name: minikube start
