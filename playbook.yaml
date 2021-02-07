@@ -39,7 +39,7 @@
   - name: minikube start
     command: minikube start --driver=none
   - name: Minikube Deployment
-    command: kubectl apply -f kubernetes.yml
+    command: kubectl apply -f kubernetes.yaml
   # - name: make executable
   #   command: chmod +x kubernetes-cluster-information.sh
   # - name: timeout
